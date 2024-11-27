@@ -1,0 +1,84 @@
+body {
+    color: #999;
+}
+
+label {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    background: #fff;
+    padding: 0 0px;
+}
+
+.result {
+    margin: 10px 0px;
+}
+
+.pinned {
+    margin: 10px 0px;
+}
+
+.pinnedtasks {
+    margin: 5px 0px;
+}
+
+.alltasks {
+    margin: 10px 0px;
+}
+
+.head {
+    position: absolute;
+}
+
+.tasks {
+    margin: 5px 0px;
+}
+
+.task {
+    width: 230px;
+    border: #000 1px solid;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+.checkbox {
+    float: right;
+}
+
+.form {
+    position: relative;
+}
+
+.input {
+    width: 230px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.app {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.headtasks {
+    width: 240px;
+    height: 60px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodytasks {
+    width: 240px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
