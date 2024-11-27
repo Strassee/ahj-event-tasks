@@ -13,10 +13,12 @@ export default class Task {
     this.checkbox = document.createElement("input");
     this.checkbox.type = "checkbox";
     this.checkbox.classList.add("checkbox");
-    this.checkbox.addEventListener("change", (e) => {
-      this.tasks.result.textContent = '';
+    this.checkbox.addEventListener("change", () => {
+      this.tasks.result.textContent = "";
       this.pinned = this.checkbox.checked ? 1 : 0;
-      this.tasks.renderPinnedTasks(tasks.tasksArray.filter((task) => task.pinned === 1));
+      this.tasks.renderPinnedTasks(
+        this.tasks.tasksArray.filter((task) => task.pinned === 1),
+      );
       this.tasks.onFilter();
     });
     this.divTask.appendChild(this.checkbox);
