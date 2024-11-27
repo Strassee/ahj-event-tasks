@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/sq7ayq2v4jar270a?svg=true)](https://ci.appveyor.com/project/Strassee/ahj-event-tasks)
+
 # Домашнее задание к занятию "3.Обработка событий"
 
 Правила сдачи задания:
